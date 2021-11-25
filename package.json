@@ -1,0 +1,28 @@
+{
+  "name": "simple-react-app-2",
+  "version": "1.0.0",
+  "description": "You can start the project by typing <b>npm run dev</b><br>   Created project",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ./src/html/index.html",
+    "build": "parcel build ./src/html/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nanoid": "^3.1.30",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "autoprefixer": "^10.4.0",
+    "babel": "^6.23.0",
+    "parcel": "^2.0.1",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  }
+}
